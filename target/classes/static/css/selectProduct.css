@@ -1,0 +1,341 @@
+* {margin : 0;  padding : 0;}
+
+
+a {
+    text-decoration : none;
+    color: inherit;
+}
+
+#container {
+    width: 1100px;
+    margin : auto;    
+    display: flex;    
+}
+
+#sidebar {    
+    width : 15%;    
+    position: fixed;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 13px;
+    font-size: 30px;
+    
+}
+
+#sidebar .info_my {
+    padding-top: 40px;
+    
+}
+
+.info_my .navi {
+    padding-top: 15px;  
+    font-size: 13px;
+}
+
+li {
+    padding-top: 12px;
+}
+
+a{
+    color: gray;
+}  
+
+ 
+  a:hover {
+  
+    text-decoration: underline;
+  }
+
+
+#content {    
+    width : 85%;    
+    margin-left : 200px;
+}
+
+
+
+#profil {
+    margin-top: 50px;
+    width: 100%;    
+    height: 200px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+     
+}
+
+#profil #profilbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width :100%;
+    height: 150px;
+    border: 2px solid gray;
+    
+}
+
+#profil #user_profil {
+    width : 12% ;
+    height: 100%;    
+    margin-left : 10px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+#profil #user_profil img{
+    width : 80% ;
+    height: 80%;    
+}
+#profil #user_profil01 {    
+    width: 40%;
+    height: 100%;     
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+#profil #user_profil01 span {
+    font-size: 18px;
+}
+
+
+#profil #user_profil01 .profil_class {
+    font-size: 14px;
+}
+#profil #user_profil01 .profil_class2 {
+    font-size: 12px;
+}
+
+#profil #user_profil02 .profil_side {
+    color: black;
+}
+#profil #user_profil04 .profil_side {
+    color: black;
+}
+
+
+
+#profil #user_profil02 a:hover {
+    text-decoration-line:none;
+  }
+  #profil #user_profil04 a:hover {
+    text-decoration-line:none;
+  }
+
+#profil #user_profil02 {   
+    width: 20%;
+    height: 60%;    
+    border-left: 2px solid gray;
+}
+#profil #user_profil02 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;    
+    text-align: right;
+}
+
+#profil #user_profil04 {
+    
+    border-left: 2px solid gray;
+    height : 60%;    
+    width: 20%;  
+}
+#profil #user_profil04 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;    
+    text-align: right;
+}
+
+
+
+
+#recentorder {
+  width : 100%;
+  height: 250px;
+  margin-top : 50px;
+  
+}
+#recentorder #recentordertitle {
+  font-size : 20px;
+  font-weight: bold;
+  line-height: 30px;
+  border-bottom: 2px solid black;
+}
+
+#orderprocess {
+  border-bottom: 1px solid gray;
+}
+
+
+#orderprocess a {
+  color: black;
+}
+
+#orderprocess a:hover {
+  text-decoration-line:none;
+
+}
+
+#recentorder ul {
+  display: flex;
+  justify-content: space-around;    
+  align-items: center;
+  height: 130px;        
+}
+#recentorder ul .ordercount {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+ 
+}
+#recentorder ul li {
+  padding-top : 5px;
+}
+
+#recentorder #orderchange {
+  height: 50px;   
+  border-bottom: 1px solid gray;
+  font-weight: bold;
+}
+
+#recentorder #orderchange a{
+  color: black;
+}
+#recentorder #orderchange a:hover{
+  text-decoration-line: none;
+}
+
+
+
+
+/* 주문/배송현황 조회 */
+#order_history {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+#order_history #order_historytitle {
+  font-size : 20px;
+  font-weight: bold;
+  line-height: 30px;
+  border-bottom: 2px solid black;
+}
+
+
+#orderprocess1 ul {
+  display: flex;
+  justify-content: space-around;    
+  align-items: center;
+  height: 100px;
+       
+}
+
+#orderprocess1 ul li .period-wrap {
+  display: flex;
+}
+
+
+button.btnFade.btnBlueGreen {
+  display: block;
+  position: relative;
+  float: left;
+  width: 60px;
+  padding: 0;
+  margin: 10px 10px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 2px;
+  transition: all 0.2s ;
+}
+
+.btnBlueGreen {
+  background: white;
+}
+
+.btnFade.btnBlueGreen:hover {
+  background: #b6dbcd;
+}
+
+
+button.btn.btn-sm {
+  width: 80px;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+/* 주문현황 메인 */
+#order_main {
+  width: 100%;
+  height: 500px;
+
+}
+
+
+
+/* #orderprocess1 #history_name {
+  font-size : 15px;
+  font-weight: bold;
+  line-height: 30px;
+} */
+
+
+#order_main_product {
+  height: 400px;
+  
+}
+
+#order_main_product #order_product1 {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 10px;
+  margin-left: 10px;
+  border-bottom: 1px solid black;
+  
+}
+
+#order_main_product #order_product1 ul{
+  display: flex;
+}
+
+#order_main_product #order_product1 ul li{
+  /* display: flex; */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+#order_product1 .order_product1_info1 {
+  font-size: 12px;
+  color: rgb(156, 155, 155);
+}
+
+
+
+button#order_productbtn {
+  width: 50px;
+  background-color: black;
+  color: white;
+  height: 30px;
+}
+
+
+button#button_buy {
+  width: 100px;
+  background-color: black;
+  margin-left: 100px;
+  color: white;
+  height: 40px;
+}
+
